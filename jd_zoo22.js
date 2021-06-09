@@ -313,8 +313,8 @@ async function zoo() {
         //   await takePostRequest('zoo_wishShopLottery');
         //   await $.wait(3000);
         // }
-        await $.wait(3000);
-      }
+        //await $.wait(3000);
+      //}
     }
     //==================================微信任务========================================================================
     // $.wxTaskList = [];
