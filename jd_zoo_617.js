@@ -35,6 +35,7 @@ cron "33 0,6-23/2 * * *" script-path=https://gitee.com/lxk0301/jd_scripts/raw/ma
 });
 const $ = new Env('618动物联萌');
 $.CryptoJS = $.isNode() ? require('crypto-js') : CryptoJS
+let joyToken = "";
 const notify = $.isNode() ? require('./sendNotify') : '';
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
 const pKHelpFlag = true;//是否PK助力  true 助力，false 不助力
